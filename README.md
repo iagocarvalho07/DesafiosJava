@@ -2,8 +2,8 @@
 
 ## lista de exercicios encontrada em https://wiki.python.org.br/ListaDeExercicios
  
- #somos o que fazemos repetidamente por isso o mérito não está na ação e sim no hábito
- #a excelência não é um feito e sim um hábito
+ # somos o que fazemos repetidamente por isso o mérito não está na ação e sim no hábito
+ # a excelência não é um feito e sim um hábito
 
 
 [150 exercicios programação.pdf](https://github.com/iagocarvalho07/DesafiosJava/files/7625503/150.exercicios.programacao.pdf)
