@@ -15,5 +15,45 @@ Salário Bruto: (5 * 220) : R$ 1100,00 (-) IR (5%) : R$ 55,00 (-) INSS ( 10%) : 
 : R$ 121,00 Total de descontos : R$ 165,00 Salário Liquido : R$ 935,00*/
 package EstruturaDeDecisaoExercicios;
 
+import java.util.Scanner;
+
 public class ex025 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println();
+
+        System.out.print("\n" + "Valor da sua hora trabalhada: R$");
+        double valorHora = scan.nextDouble();
+        System.out.print("Numero de horas trabalhadas no mes : ");
+        double horasTrabalhas = scan.nextDouble();
+
+        double faixaParaImposto = horasTrabalhas * valorHora;
+        double IR = 0;
+
+        if (faixaParaImposto <= 900) {
+            IR = 0;
+        } else if (faixaParaImposto <= 1500) {
+            IR = 5;
+        } else if (faixaParaImposto <= 2500) {
+            IR = 10;
+        } else if (faixaParaImposto > 2500) {
+            IR = 20;
+        }
+
+        double INSS = 10;
+        double FGTS = 11;
+        double discountIR = faixaParaImposto * (IR/100);
+        double discountINSS = faixaParaImposto * (INSS/100);
+        double discountFGTS = faixaParaImposto * (FGTS/100);
+        double totalDiscounts = faixaParaImposto + discountINSS;
+        double netSalary = faixaParaImposto - totalDiscounts;
+
+        System.out.println();
+        System.out.println("salrio: " + "( " + horasTrabalhas + " * " + valorHora + " )" + " .......... R$" + faixaParaImposto);
+        System.out.println("(-) IR " + "("+ IR + "%)" + " .......................... R$" + discountIR);
+        System.out.println("(-) INSS " + "("+ INSS + "%)" + " ....................... R$" + discountINSS);
+        System.out.println("FGTS " + "("+ FGTS + "%)" + " ........................... R$" + discountFGTS);
+        System.out.println("Total discontos" + " ........................ R$" + discountFGTS);
+        System.out.println("Net Salary" + " ............................. R$" + netSalary);
+    }
 }
