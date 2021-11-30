@@ -348,7 +348,7 @@ abaixo:Atleta: Aparecido ParenteNota: 9.9Nota: 7.5Nota: 9.5Nota: 8.5Nota:
 91. Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, Faça um programa que calcule o valor de H com N termos.
 92. Faça um programa que mostre os n termos da Série a seguir:
 • S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
-Exercícios Com Listas
+# Exercícios Com Listas
 93. Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 94. Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 95. Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
@@ -534,7 +534,7 @@ feito através de uma função, que será chamada pelo programa principal.
 116. Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e armazene os resultados em um
 vetor . Depois, mostre quantas vezes cada valor foi conseguido. Dica: use um vetor de contadores(1-6) e uma
 função para gerar numeros aleatórios, simulando os lançamentos dos dados.
-Exercícios com Funções
+# Exercícios com Funções
 Veja também a página com as soluções propostas pela comunidade em ExerciciosFuncoesSolucoes
 117. Faça um programa para imprimir:
 • 1 2 2 3 3 3 ..... n n n n n n ... n
@@ -590,7 +590,7 @@ com números de 1 a 9:
 mágicos com as características acima. Dica: produza todas as combinações possíveis e verifique a soma
 quando completar cada quadrado. Usar um vetor de 1 a 9 parece ser mais simples que usar uma matriz
 3x3.
-ExerciciosComStrings
+ # ExerciciosComStrings
 Voltar para a ListaDeExercicios
 131. Tamanho de strings. Faça um programa que leia 2 strings e informe o conteúdo delas seguido do seu comprimento.
 Informe também se as duas strings possuem o mesmo comprimento e são iguais ou diferentes no conteúdo.
