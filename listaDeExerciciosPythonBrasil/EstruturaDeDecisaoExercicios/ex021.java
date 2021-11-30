@@ -21,8 +21,6 @@ public class ex021 {
         }else if (produto2 <=produto1 && produto2 <= produto3);{
             System.out.println("o segundo produto e mais barato ");
 
-        }else if(produto3 <= produto1 && produto3 <= produto2 ){
-            System.out.println("o terceiro produto é mais barato");
         }
 
 
