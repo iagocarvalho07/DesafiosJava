@@ -5,7 +5,7 @@ Faça um Programa que peça a temperatura
 C = 5 * ((F-32) / 9)
 * */
 
-package com.company;
+package EstruturaSequencialExercicios;
 
 import java.util.Scanner;
 

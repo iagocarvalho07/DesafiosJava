@@ -3,7 +3,7 @@
 *  metros para centímetros.
  * */
 
-package com.company;
+package EstruturaSequencialExercicios;
 
 import java.util.Scanner;
 

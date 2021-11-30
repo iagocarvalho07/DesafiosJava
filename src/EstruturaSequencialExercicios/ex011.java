@@ -5,7 +5,7 @@ a soma do triplo do primeiro com o terceiro.
 o terceiro elevado ao cubo.
         */
 
-package com.company;
+package EstruturaSequencialExercicios;
 
 import java.util.Scanner;
 

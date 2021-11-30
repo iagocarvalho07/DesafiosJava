@@ -13,7 +13,7 @@
 *  e na variável multa o valor da multa que
 *  João deverá pagar. Imprima os
 *  dados do programa com as mensagens adequadas.*/
-package com.company;
+package EstruturaSequencialExercicios;
 
 public class ex014 {
     public static void main(String[] args) {

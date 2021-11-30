@@ -3,7 +3,7 @@
 * calcule e mostre sua área.
 * */
 
-package com.company;
+package EstruturaSequencialExercicios;
 import java.util.Scanner;
 
 public class ex006 {

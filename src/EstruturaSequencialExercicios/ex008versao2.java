@@ -4,7 +4,7 @@ saber quantas horas trabalha no mes e seu salario final
 desta forma faça um programa que apartir das horas trabalhadas no mes e seu salario
 calcule quanto essa pessoa ganha por hora */
 
-package com.company;
+package EstruturaSequencialExercicios;
 
 import java.util.Scanner;
 

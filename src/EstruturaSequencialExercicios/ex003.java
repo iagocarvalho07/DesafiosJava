@@ -1,7 +1,7 @@
 /*Faça um Programa que peça dois
 números e imprima a soma*/
 
-package com.company;
+package EstruturaSequencialExercicios;
 
 import java.util.Scanner;
 

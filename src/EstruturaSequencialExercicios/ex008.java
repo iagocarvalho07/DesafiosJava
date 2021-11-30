@@ -2,7 +2,7 @@
  Calcule e mostre o total do seu salário no referido mês.
 * */
 
-package com.company;
+package EstruturaSequencialExercicios;
 
 import java.util.Scanner;
 

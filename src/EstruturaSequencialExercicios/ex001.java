@@ -2,7 +2,7 @@
  "Alo mundo" na tela.*/
 
 
-package com.company;
+package EstruturaSequencialExercicios;
 
 public class ex001 {
 
